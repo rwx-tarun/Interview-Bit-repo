@@ -1,10 +1,10 @@
-Problem Description
+// Problem Description
 
-Given an integer array A of size N.
+// Given an integer array A of size N.
 
-You can pick B elements from either left or right end of the array A to get maximum sum.
+// You can pick B elements from either left or right end of the array A to get maximum sum.
 
-Find and return this maximum possible sum.
+// Find and return this maximum possible sum.
 
 
 int Solution::solve(vector<int> &A, int B) {
