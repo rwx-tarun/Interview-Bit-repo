@@ -20,10 +20,9 @@ int Solution::coverPoints(vector<int> &A, vector<int> &B) {
     int res =0;
     while(i<n)
     {
-        res = max(A[i]-A[i-1],B[i]-B[i-1]);
+        res =res + max(A[i]-A[i-1],B[i]-B[i-1]);
         i++;
     }
-    if(res<0)
-        res = -1*res;
+  
     return res;
 }
